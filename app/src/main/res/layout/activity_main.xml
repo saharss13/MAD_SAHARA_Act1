@@ -9,17 +9,14 @@
     android:background="#E6E6FA">
 
 
-
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#9932CC"
-        android:fontFamily="serif"
-        android:text="*=ExNo.1=*"
-        android:textAlignment="center"
+        android:layout_height="30dp"
+        android:background="@color/LightSteelBlue"
+        android:fontFamily="monospace"
+        android:text="ExNo.1"
         android:textColor="@color/white"
-        android:textSize="30sp" />
-
+        android:textSize="25sp" />
 
 
     <TextView
@@ -27,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
-        android:fontFamily="serif"
+        android:fontFamily="serif-monospace"
         android:gravity="center"
         android:text="Hello World!"
         android:textColor="#FF00FF"
@@ -35,35 +32,33 @@
         android:textStyle="bold|italic" />
 
 
-
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/Thistle"
+        android:fontFamily="serif-monospace"
         android:gravity="center"
-        android:backgroundTint="#9932CC"
         android:text="Change font size"
         android:textColor="@color/white"
-        android:fontFamily="serif"
         android:textSize="40sp" />
-
 
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:backgroundTint="#9932CC"
-        android:fontFamily="serif"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/Thistle"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
         android:text="Change color"
+        android:textColor="@color/white"
         android:textSize="40sp" />
 
 
@@ -71,7 +66,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9932CC"
+        android:background="@color/LightSteelBlue"
         android:textSize="40dp"
         android:layout_marginTop="150dp"
         />
